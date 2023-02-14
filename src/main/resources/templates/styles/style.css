@@ -1,0 +1,15 @@
+.navbar {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.collapse {
+    display: flex;
+    justify-content: end
+}
+
+.main {
+    display: flex;
+}
