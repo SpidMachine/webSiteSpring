@@ -1,0 +1,110 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Ganeva, Verdana, sans-serif;
+}
+
+.mainScreen {
+  box-sizing: border-box;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/firstScreen.png) no-repeat;
+  border: 1px solid #000000;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 900px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mainHeaderScreen {
+  width: 100%;
+  margin-top: 100px;
+  border-bottom: 1px solid #A1A1A1;
+  li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+  }
+
+  nav {
+    position: absolute;
+    width: 583px;
+    height: 59px;
+    left: 932px;
+    top: 40px;
+    display: flex;
+    ul li {
+      list-style-type: none;
+      padding: 0 20px 0 20px;
+    }
+
+    li a {
+      text-decoration: none;
+      transition: border-bottom-color 500ms ;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+
+    li a :hover {
+    }
+  }
+}
+
+.ulHorizontalPosition {
+  display: flex;
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.mainCentre {
+  left: 872px;
+  top: 319px;
+  p {
+    position: absolute;
+    width: 205px;
+    height: 20px;
+    left: 872px;
+    top: 319px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  h1 {
+    position: absolute;
+    width: 829px;
+    height: 111px;
+    left: 545px;
+    top: 359px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  button {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 860px;
+    top: 570px;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.scss.map */
